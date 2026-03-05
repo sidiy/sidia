@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>djkpay.com Landing Page</title>
+    <script>
+      // Safety script to prevent libraries from overwriting window.fetch
+      (function() {
+        const originalFetch = window.fetch;
+        try {
+          Object.defineProperty(window, 'fetch', {
+            value: originalFetch,
+            writable: false,
+            configurable: false
+          });
+        } catch (e) {
+          // If it's already non-configurable, we just ignore the error
+        }
+        window.global = window;
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
