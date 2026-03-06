@@ -25,7 +25,7 @@ export default function App() {
 
         {/* CTA Button */}
         <a 
-          href="mailto:YOUR_EMAIL@DOMAIN.COM?subject=Corporate%20Inquiry:%20djkpay.com&body=I%20am%20inquiring%20about%20the%20acquisition%20of%20the%20domain%20name%20djkpay.com.%20Please%20provide%20pricing%20guidance%20and%20transfer%20details."
+          href="mailto:sidya@djkpay.com?subject=Corporate%20Inquiry:%20djkpay.com&body=I%20am%20inquiring%20about%20the%20acquisition%20of%20the%20domain%20name%20djkpay.com.%20Please%20provide%20pricing%20guidance%20and%20transfer%20details."
           className="w-full bg-[#111827] hover:bg-[#1f2937] text-white font-bold py-5 px-8 rounded-lg transition-all duration-200 text-center shadow-md hover:shadow-lg transform hover:-translate-y-0.5 active:translate-y-0"
         >
           Request Price & Details
